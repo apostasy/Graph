@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/aboutTtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutTtl" />
+
+        <TextView
+            android:id="@+id/aboutMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutMsg" />
+
+        <TextView
+            android:id="@+id/thanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thanks" />
+
+    	<Button
+    	    android:id="@+id/button_nb"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:autoLink="web"
+    	    android:clickable="true"
+    	    android:onClick="goToNB"
+    	    android:text="TheNewBoston" />
+
+    	<Button
+    	    android:id="@+id/button_so"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:autoLink="web"
+    	    android:clickable="true"
+    	    android:cursorVisible="true"
+    	    android:linksClickable="true"
+    	    android:onClick="goToSo"
+    	    android:text="StackOverflow" />
+
+    	<Button
+    	    android:id="@+id/button_go"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:autoLink="web"
+    	    android:clickable="true"
+    	    android:onClick="goToGo"
+    	    android:text="Google" />
+
+    	<TextView
+    	    android:id="@+id/spcThanks"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/spcThanks" />
+    	
+    	<Button
+    	    android:id="@+id/button_darius"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:autoLink="web"
+    	    android:clickable="true"
+    	    android:onClick="goToDarius"
+    	    android:text="gitHub/Darius" />
+
+</LinearLayout>

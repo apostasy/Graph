@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Graphing Calculator</string>
+    <string name="app_name">Graph</string>
+    <string name="f">f(x)=</string>
+    <string name="fx">2*x^2</string>
+    <string name="goBtnTxt">Graph</string>
+    <string name="aboutTtl">About Graph:</string>
+    <string name="aboutMsg">Graph is a simple program that evaluates a mathmatical expression an draws is to  a graph.</string>
+    <string name="thanks">This app would not be possible without:</string>
+    <string name="spcThanks">expr library used to transcribe math expressions by github user Darius:</string>
+    <string name="helpTtl">Help:</string>
+    <string name="helpMsg">Graph understands most math functions.\n\nA few simple guidlines:\n\nUse the variable \'x\'\nWhen multiplying a constant by the variable (2x) \n\tuse the * symbol (2*x)\nHigher functions like exponents (^), pi, sin etc. work\nFor trig functions use the syntax sin(pi/4*x) or \n\tcos(x)</string>
+
+</resources>
